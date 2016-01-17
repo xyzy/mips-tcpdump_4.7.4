@@ -6141,21 +6141,21 @@ $as_echo "yes" >&6; }
     fi
 
                                     ac_fn_c_check_func "$LINENO" "pcap_loop" "ac_cv_func_pcap_loop"
-#if test "x$ac_cv_func_pcap_loop" = xyes; then :
+if test "x$ac_cv_func_pcap_loop" = xyes; then :
 
 #else
 
 #	    as_fn_error $? "Report this to tcpdump-workers@lists.tcpdump.org, and include the
-config.log file in your report.  If you have downloaded libpcap from
-tcpdump.org, and built it yourself, please also include the config.log
-file from the libpcap source directory, the Makefile from the libpcap
-source directory, and the output of the make process for libpcap, as
-this could be a problem with the libpcap that was built, and we will
-not be able to determine why this is happening, and thus will not be
-able to fix it, without that information, as we have not been able to
-reproduce this problem ourselves." "$LINENO" 5
+#config.log file in your report.  If you have downloaded libpcap from
+#tcpdump.org, and built it yourself, please also include the config.log
+#file from the libpcap source directory, the Makefile from the libpcap
+#source directory, and the output of the make process for libpcap, as
+#this could be a problem with the libpcap that was built, and we will
+#not be able to determine why this is happening, and thus will not be
+#able to fix it, without that information, as we have not been able to
+#reproduce this problem ourselves." "$LINENO" 5
 
-#fi
+fi
 
 
 
